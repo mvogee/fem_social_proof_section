@@ -1,4 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 6rem 1.6rem;
+    font-family: Spartan, helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding: .7em;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.description {
+    color: hsl(303, 10%, 53%);
+    margin: 1rem 0 2.5rem 0;
+}
+
+
+/* ratings section */
+.rating {
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 1.2em 2em;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+}
+.rating img {
+    margin-bottom: .5em;
+}
+.rating p {
+    font-weight: 700;
+    font-size: .9em;
+}
+
+
+/* cards section */
+
+.cards-wrapper {
+    margin-top: 4rem;
+}
+
+.card {
+    text-align: left;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    color: #FFF;
+    margin: 1.5rem 0;
+    padding: 2.5em 1.8em;
+}
+
+.card img {
+    float: left;
+    border-radius: 100%;
+    width: 2rem;
+    margin: 0 1.2em 0 0;
+}
+
+.person-name {
+    font-size: 1em;
+}
+.person-title {
+    font-size: .9em;
+    color: hsl(333, 80%, 67%);
+    margin-top: .2em;
+}
+.card-content {
+    font-size: .8em;
+    margin-top: 1.5em;
+}
+
+
+/* Footer section */
 .attribution {
+    margin: 5rem 0 -5rem 0;
     font-size: 11px;
     text-align: center;
   }
