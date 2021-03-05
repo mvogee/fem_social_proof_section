@@ -110,22 +110,31 @@ p {
            margin-bottom: 0;
        }
 
+
+        .ratings-wrapper {
+            padding: 0 2em 0 2em;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+        }
+
        .rating img {
            margin: 0;
-       }
+        }
        .rating p {
            display: inline-block;
            margin-left: .8em;
        }
        .rating:nth-child(1) {
-           position: relative;
-           right: 12em;
-       }
-       .rating:nth-child(2) {
-        position: relative;
-        right: 6em;
-    }
+            align-self: flex-start;
+        }
 
+       .rating:nth-child(2) {
+            align-self: center;
+        }
+        .rating:nth-child(3) {
+            align-self: flex-end;
+        }
        .cards-wrapper {
            display: flex;
            flex-wrap: nowrap;
