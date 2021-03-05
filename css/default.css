@@ -87,3 +87,58 @@ p {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+
+  @media(min-width: 760px) {
+       body {
+           text-align: left;
+           padding: 7rem;
+       }
+       .top-wrapper {
+           display: flex;
+           justify-content: space-between;
+       }
+       .header-wrapper {
+           max-width: 40%;
+       }
+       .header-wrapper h1 {
+           margin-left: -.3em;
+           padding-bottom: 0;
+       }
+       .description {
+           padding-left: 1em;
+           margin-bottom: 0;
+       }
+
+       .rating img {
+           margin: 0;
+       }
+       .rating p {
+           display: inline-block;
+           margin-left: .8em;
+       }
+       .rating:nth-child(1) {
+           position: relative;
+           right: 12em;
+       }
+       .rating:nth-child(2) {
+        position: relative;
+        right: 6em;
+    }
+
+       .cards-wrapper {
+           display: flex;
+           flex-wrap: nowrap;
+       }
+       .card {
+           margin: 2em .8em;
+       }
+       .card:nth-child(2) {
+           position: relative;
+           top: 1em;
+       }
+       .card:nth-child(3) {
+           position: relative;
+           top: 2em;
+       }
+  }
